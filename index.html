@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFORCE</title>
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/9860e3b8b6.js" crossorigin="anonymous"></script>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+
+    <!--CSS Glider-->
+    <link rel="stylesheet" href="glider/glider.min.css" type="text/css">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/styles.css" />
+
+</head>
+<body>
+    <!--NavBar-->
+    <header>
+        <nav class="navbar">
+            <img class="logo" src="img/logo_topo.png" alt="logo">
+            <ul class="list">
+                
+                <li class="list-item">
+                    <a class="list-link" href="#">Home</a>
+                </li>
+    
+                <li class="list-item">
+                    <a class="list-link" href="#">Imóveis</a>
+                </li>
+    
+                <li class="list-item">
+                    <a class="list-link" href="#">Serviços</a>
+                </li>
+    
+                <li class="list-item">
+                    <a class="list-link" href="#">Fale Conosco</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!--Carousel de Imagens-->
+    <div class="glider-contain">
+        <div class="glider">
+            <div class="glider-inner">
+
+                <img id="glider-first-img" src="" alt="banner">
+                <p id="glider-first-titulo"></p>
+               
+                <div class="glider-call-action">
+                    <button class="glider-btn" >
+                        <a class="glider-link" href="#">Veja mais</a>
+                    </button>
+                </div>
+            
+            </div>
+            
+            <div class="glider-inner">
+                
+                <img id="glider-second-img" src="" alt="banner">
+                <p id="glider-second-titulo"></p>
+            
+                <div class="glider-call-action">
+                    <button class="glider-btn" >
+                        <a class="glider-link" href="#">Veja mais</a>
+                    </button>
+                </div>
+            
+            </div>
+
+        </div>
+    
+        <button aria-label="Previous" class="glider-prev">«</button>
+        <button aria-label="Next" class="glider-next">»</button>
+        <div role="tablist" class="glider-dots active"></div>
+    </div>
+
+    <!--Vitrine de Imóveis-->
+    <h2 class="vitrine-imoveis-title">Vitrine de Imóveis</h2>
+    <div class="carousel">
+        <div class="carousel-card">
+            <div class="vitrine-imoveis-card">
+                <div class="vitrine-imoveis-card-container">
+                    <div class="vitrine-imoveis-card-inner">
+                        <img id="vitrine-imoveis-first-img" src="" alt="capa"></img>
+                                    
+                        <div class="vitrine-imoveis-wrapper">
+                            <p id="vitrine-imoveis-first-tipo"></p>
+                            <p id="vitrine-imoveis-first-bairro"></p>
+                            <span id="vitrine-imoveis-first-uf">- RJ</span>
+                        </div>
+                        
+                        <div class="vitrine-imoveis-container">
+
+                            <div class="vitrine-imoveis-container-icons">
+                                <i class="fas fa-bed"></i>
+                                <i class="fas fa-car"></i>
+                                <i class="fas fa-expand-arrows-alt"></i>
+                            </div>
+
+                            <div class="vitrine-imoveis-container-icons-qtd">
+                                <p id="vitrine-imoveis-first-quartos"></p>
+                                <p id="vitrine-imoveis-first-vagas"></p>
+                                <p id="vitrine-imoveis-first-metragem"></p>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="vitrine-imoveis-button-container">
+                            <button class="vitrine-imoveis-button">
+                                <a class="vitrine-imoveis-link" href="#">Veja mais</a>
+                            </button>
+                        </div>              
+                    </div>
+
+                    <div class="vitrine-imoveis-card-inner">
+                        <img id="vitrine-imoveis-second-img" src="" alt="capa"></img>
+                                    
+                        <div class="vitrine-imoveis-wrapper">
+                            <p id="vitrine-imoveis-second-tipo"></p>
+                            <p id="vitrine-imoveis-second-bairro"></p>
+                            <span id="vitrine-imoveis-second-uf">- RJ</span>
+                        </div>
+
+                        <div class="vitrine-imoveis-container">
+                            <div class="vitrine-imoveis-container-icons">
+                                <i class="fas fa-bed"></i>
+                                <i class="fas fa-car"></i>
+                                <i class="fas fa-expand-arrows-alt"></i>
+                                
+                            </div>
+                            <div class="vitrine-imoveis-container-icons-qtd">
+                                <p id="vitrine-imoveis-second-quartos"></p>
+                                <p id="vitrine-imoveis-second-vagas"></p>
+                                <p id="vitrine-imoveis-second-metragem"></p>
+                            </div>
+                        </div>
+
+                        <div class="vitrine-imoveis-button-container">
+                            <button class="vitrine-imoveis-button">
+                                <a class="vitrine-imoveis-link" href="#">Veja mais</a>
+                            </button>
+                        </div>            
+                                    
+                    </div>
+
+                    <div class="vitrine-imoveis-card-inner">
+                        <img id="vitrine-imoveis-third-img" src="" alt="capa"></img>
+                                    
+                        <div class="vitrine-imoveis-wrapper">
+                            <p id="vitrine-imoveis-third-tipo"></p>
+                            <p id="vitrine-imoveis-third-bairro"></p>
+                            <span id="vitrine-imoveis-third-uf">- RJ</span>
+                        </div>
+
+                        <div class="vitrine-imoveis-container">
+                            <div class="vitrine-imoveis-container-icons">
+                                <i class="fas fa-bed"></i>
+                                <i class="fas fa-car"></i>
+                                <i class="fas fa-expand-arrows-alt"></i>
+                            </div>
+                            <div class="vitrine-imoveis-container-icons-qtd">
+                                <p id="vitrine-imoveis-third-quartos"></p>
+                                <p id="vitrine-imoveis-third-vagas"></p>
+                                <p id="vitrine-imoveis-third-metragem"></p>
+                            </div>
+                        </div>
+
+                        <div class="vitrine-imoveis-button-container">
+                            <button class="vitrine-imoveis-button">
+                                <a class="vitrine-imoveis-link" href="#">Veja mais</a>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="vitrine-imoveis-card-inner">
+                        <img id="vitrine-imoveis-fourth-img" src="" alt="capa"></img>
+                        
+                        <div class="vitrine-imoveis-wrapper">
+                            <p id="vitrine-imoveis-fourth-tipo"></p>
+                            <p id="vitrine-imoveis-fourth-bairro"></p>
+                            <span id="vitrine-imoveis-fourth-uf">- RJ</span>
+                        </div>
+
+                        <div class="vitrine-imoveis-container">
+                            <div class="vitrine-imoveis-container-icons">
+                                <i class="fas fa-bed"></i>
+                                <i class="fas fa-car"></i>
+                                <i class="fas fa-expand-arrows-alt"></i>
+                            </div>
+                            <div class="vitrine-imoveis-container-icons-qtd">
+                                <p id="vitrine-imoveis-fourth-quartos"></p>
+                                <p id="vitrine-imoveis-fourth-vagas"></p>
+                                <p id="vitrine-imoveis-fourth-metragem"></p>
+                            </div>
+                        </div>
+
+                        <div class="vitrine-imoveis-button-container">
+                            <button class="vitrine-imoveis-button">
+                                <a class="vitrine-imoveis-link" href="#">Veja mais</a>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="vitrine-imoveis-card-inner">
+                        <img id="vitrine-imoveis-fifth-img" src="" alt="capa"></img>
+                                    
+                        <div class="vitrine-imoveis-wrapper">
+                            <p id="vitrine-imoveis-fifth-tipo"></p>
+                            <p id="vitrine-imoveis-fifth-bairro"></p>
+                            <span id="vitrine-imoveis-fifth-uf">- RJ</span>
+                        </div>
+
+                        <div class="vitrine-imoveis-container">
+                            <div class="vitrine-imoveis-container-icons">
+                                <i class="fas fa-bed"></i>
+                                <i class="fas fa-car"></i>
+                                <i class="fas fa-expand-arrows-alt"></i>
+                            </div>
+                            <div class="vitrine-imoveis-container-icons-qtd">
+                                <p id="vitrine-imoveis-fifth-quartos"></p>
+                                <p id="vitrine-imoveis-fifth-vagas"></p>
+                                <p id="vitrine-imoveis-fifth-metragem"></p>
+                            </div>
+                        </div>
+
+                        <div class="vitrine-imoveis-button-container">
+                            <button class="vitrine-imoveis-button">
+                                <a class="vitrine-imoveis-link" href="#">Veja mais</a>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="vitrine-imoveis-card-inner">
+                        <img id="vitrine-imoveis-sixth-img" src="" alt="capa"></img>
+                        
+                        <div class="vitrine-imoveis-wrapper">
+                            <p id="vitrine-imoveis-sixth-tipo"></p>
+                            <p id="vitrine-imoveis-sixth-bairro"></p>
+                            <span id="vitrine-imoveis-sixth-uf">- RJ</span>
+                        </div>
+
+                        <div class="vitrine-imoveis-container">
+                            <div class="vitrine-imoveis-container-icons">
+                                <i class="fas fa-bed"></i>
+                                <i class="fas fa-car"></i>
+                                <i class="fas fa-expand-arrows-alt"></i>
+                            </div>
+                            <div class="vitrine-imoveis-container-icons-qtd">
+                                <p id="vitrine-imoveis-sixth-quartos"></p>
+                                <p id="vitrine-imoveis-sixth-vagas"></p>
+                                <p id="vitrine-imoveis-sixth-metragem"></p>
+                            </div>
+                        </div>
+
+                        <div class="vitrine-imoveis-button-container">
+                            <button class="vitrine-imoveis-button">
+                                <a class="vitrine-imoveis-link" href="#">Veja mais</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </div>
+
+        <div class="carousel-button-container">
+            <button class="carousel-button previous" id="previous"><</button>
+            <button class="carousel-button next" id="next">></button>
+        </div>
+    </div>
+
+    <!--Call Action-->
+    <section class="call-action">
+        <div class="call-action-container">
+            <button class="call-action-button">
+                <a class="call-action-link" href="#">Saiba Mais</a>
+            </button>
+            <div class="call-action-text">
+                <span>Receba agora ofertas por e-mail.</span>  
+            </div>
+        </div>
+
+    </section>
+
+    <!--Últimas Notícias-->
+    <h2 class="latest-news-title">Últimas Notícias</h2>
+    <div class="carousel2">
+        <div class="carousel-card2">
+            <div class="latest-news-card-container">
+                <div class="latest-news-card-inner">
+                    <img id="latest-news-first-img" src="" alt="capa"></img>
+                    <p id="latest-news-first-titulo"></p>
+                    <p id="latest-news-first-sumario"></p>
+                    
+                    <div class="latest-news-button-container">
+                        <button class="latest-news-button">
+                            <a class="latest-news-link" href="#">Veja mais</a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="latest-news-card-inner">
+                    <img id="latest-news-second-img" src="" alt="capa"></img>
+                    <p id="latest-news-second-titulo"></p>
+                    <p id="latest-news-second-sumario"></p>
+                    
+                    <div class="latest-news-button-container">
+                        <button class="latest-news-button">
+                            <a class="latest-news-link" href="#">Veja mais</a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="latest-news-card-inner">
+                    <img id="latest-news-third-img" src="" alt="capa"></img>
+                    <p id="latest-news-third-titulo"></p>
+                    <p id="latest-news-third-sumario"></p>
+                    
+                    <div class="latest-news-button-container">
+                        <button class="latest-news-button">
+                            <a class="latest-news-link" href="#">Veja mais</a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="latest-news-card-inner">
+                    <img id="latest-news-fourth-img" src="" alt="capa"></img>
+                    <p id="latest-news-fourth-titulo"></p>
+                    <p id="latest-news-fourth-sumario"></p>
+                    
+                    <div class="latest-news-button-container">
+                        <button class="latest-news-button">
+                            <a class="latest-news-link" href="#">Veja mais</a>
+                        </button>
+                    </div>
+                </div>
+            </div>   
+        </div>
+        
+        <div class="carousel-button-container2">
+            <button class="carousel-button2 previous" id="previous2"><</button>
+            <button class="carousel-button2 next" id="next">></button>
+        </div>
+    </div>
+
+    <!--Mais Acessadas-->
+    <h2 class="mais-acessos-title">Mais Acessos</h2>
+    <section class="mais-acessos">
+        <div class="mais-acessos-container">
+            <button class="mais-acessos-button">
+                <a id="mais-acessos-first-tag" href="#">tag</a>
+            </button>
+    
+            <button class="mais-acessos-button">
+                <a id="mais-acessos-second-tag" href="#">tag</a>
+            </button>
+    
+            <button class="mais-acessos-button">
+                <a id="mais-acessos-third-tag" href="#">tag</a>
+            </button>
+            <br/>
+            <button class="mais-acessos-button">
+                <a id="mais-acessos-fourth-tag" href="#">tag</a>
+            </button> 
+            
+            <button class="mais-acessos-button">
+                <a id="mais-acessos-fifth-tag" href="#">tag</a>
+            </button>
+        </div>
+    </section>
+
+    <!--Localização-->
+    <h2 class="localizacao-title">Localização</h2>
+    <section class="localizacao">
+        <div class="localizacao-container">
+            <iframe 
+            class="localizao-iframe"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2988.764466677665!2d-43.3205252855579!3d-23.00196074705555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd0baaf9c76d7%3A0x3c6fa62be5e7eb95!2sAv.%20das%20Am%C3%A9ricas%2C%20700%20-%20Barra%20da%20Tijuca%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022640-100!5e1!3m2!1spt-BR!2sbr!4v1631136040429!5m2!1spt-BR!2sbr"
+            width="800"
+            height="350"
+            style="border:1px solid #FFF;"
+            allowfullscreen=""
+            loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!--Rodapé-->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-container-img">
+                <img src="img/logo_footer.png" alt=""></img>
+            </div>
+
+            <ul class="footer-list">
+                <h3 class="footer-subtitle">Sobre Nós</h3>
+
+                <li  class="footer-item">
+                    <a class="footer-link" href="#">A inforce</a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-link" href="#">O time</a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-link" href="#">A cultura</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <h3 class="footer-subtitle">Contatos</h3>
+
+                <li class="footer-item">
+                    <span class="footer-text">inforce@domínio.com</span>
+                </li>
+                <li class="footer-item">
+                    <span class="footer-text">(xx) x xxxx - xxxx </span>
+                </li>
+                <li class="footer-item">
+                    <span class="footer-text">(xx) xxxx - xxxx</span>
+                </li>
+            </ul>
+
+            <button id="top">↑</button>
+        </div>   
+    </footer>
+
+    <!--Script Carousel Glider-->
+    <script src="glider/glider.min.js"></script>
+
+    <!--Configurações Carousel Glider-->
+    <script>
+        new Glider(document.querySelector('.glider'), {
+        slidesToShow: 1,
+        dots: '.glider-dots',
+        draggable: true,
+        duration: 0.5,
+        arrows: {
+            prev: '.glider-prev',
+            next: '.glider-next'
+        }
+        });
+    </script>
+
+    <!--Script da API-->
+    <script src="js/api.js"></script>
+
+    <!--Scripts Card-Slider-->
+    <script src="js/card-slider1.js"></script>
+    <script src="js/card-slider2.js"></script>
+
+    <!--Scroll Animado-->
+    <script>
+        function scrollTo(element){
+            document.querySelector(element).scrollIntoView({
+                behavior: "smooth"
+            })
+        }
+
+        document.querySelector('#top').addEventListener('click', function(event){
+            event.preventDefault();
+
+            scrollTo(".navbar")
+
+        })
+    </script>
+</body>
+</html>

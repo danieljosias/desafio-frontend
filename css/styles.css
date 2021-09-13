@@ -1,0 +1,635 @@
+/*Estilizações Gerais*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0,0,0,20);
+    font-family: 'Lato', sans-serif;
+}
+
+ul, a{
+    list-style: none;
+    text-decoration: none;
+}
+
+/*Barra de Rolagem*/
+
+/* personalizar a barra em geral, aqui estou definindo 20px de largura para a barra vertical
+  e 20px de altura para a barra horizontal */
+  ::-webkit-scrollbar {
+    width:20px;
+    height: 10px;
+    }
+     
+    /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo preto*/
+    ::-webkit-scrollbar-track {
+    background:#000;
+    }
+     
+    /* aqui é a alça da barra, que demonstra a altura que você está na página
+    estou colocando uma cor verde escuro nela*/
+    ::-webkit-scrollbar-thumb {
+        background:#228B22;
+    }
+
+    /* quando passar o mouse por cima da alça alça da barra, ela muda para verde escuro */
+    ::-webkit-scrollbar-thumb:hover{
+        background:#228B22;
+    }
+
+
+/*NavBar*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #FFF;
+    background-color: #228B22;
+}
+
+.logo{
+    cursor: pointer;
+    margin: 10px 10px;
+}
+
+.list{
+    display: flex;
+}
+
+.list-item{
+    padding-right: 20px;
+    margin: 20px 0px;
+}
+
+.list-link{
+    color: #000;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.list-link:hover{
+    color: #FFF;
+    transition: ease-in .2s;
+}
+
+/*Carousel de Imagens*/
+.glider-contain{
+    max-width: 190vh; 
+    margin-top: 20px;
+} 
+
+#glider-first-img,#glider-second-img{
+    height: 300px;
+    width: 1200px;
+    border: 1px solid #FFF;
+}
+
+#glider-first-titulo, #glider-second-titulo{
+    position: relative;
+    top: -100px;
+    text-align: center;
+    color: #FFF;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.glider-call-action{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: -80px;
+}
+
+.glider-btn{
+    border: 1px solid #FFF;
+    padding: 5px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #228B22;
+}
+
+.glider-link{
+    color: #000;
+    font-size: 14pt;
+}
+
+.glider-prev{
+    border: 1px solid #000;
+    padding: 5px;
+    margin-left: -20px;
+    color: #228B22;
+}
+
+.glider-prev:hover{
+    color: #FFF;
+}
+
+.glider-next{
+    border: 1px solid #000;
+    padding: 5px;
+    margin-right: -20px;
+    color: #228B22;
+}
+
+.glider-next:hover{
+    color: #000;
+}
+
+.glider-dot{
+    background-color: #FFF;
+}
+
+.glider-dots .active{
+    background-color: #228B22;
+    border: 1px solid #000;
+}
+
+/*Vitrine de Imóveis*/
+.vitrine-imoveis-title{
+    font-weight: bold;
+    font-size: 18pt;
+    text-align: center;
+    padding: 10px;
+    margin: 30px 0px 30px;
+    color: #228B22;
+}
+
+.carousel{
+    width: 760px;
+    margin: 0px 300px 0px;
+    overflow: hidden;
+}  
+
+.carousel-card{
+    align-items: center;
+    display: flex;
+    transform: translateX(0);
+    transition: transform 0.25s;
+}
+
+.vitrine-imoveis-card{
+    margin:0;
+}
+    
+.vitrine-imoveis-card-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.vitrine-imoveis-card-inner{
+    border: 1px solid #FFF;
+    width: 240px;
+    height: 350px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.vitrine-imoveis-card-inner:hover{
+    box-shadow: 0 0 5px #228B22;
+    cursor: pointer;
+    transition: ease-in .2s;
+}
+
+#vitrine-imoveis-first-img, #vitrine-imoveis-second-img,
+#vitrine-imoveis-third-img, #vitrine-imoveis-fourth-img,
+#vitrine-imoveis-fifth-img, #vitrine-imoveis-sixth-img{
+    width: 220px;
+    height: 150px;
+    margin-top: 10px;
+    border: 1px solid #FFF;
+}
+
+#vitrine-imoveis-first-tipo, #vitrine-imoveis-second-tipo,
+#vitrine-imoveis-third-tipo,#vitrine-imoveis-fourth-tipo,
+#vitrine-imoveis-fifth-tipo,#vitrine-imoveis-sixth-tipo{
+    margin-left: -120px;
+    color: #FFF;
+}
+
+#vitrine-imoveis-first-bairro{
+    margin-left: -110px;
+    color: #FFF;
+}
+
+#vitrine-imoveis-second-bairro{
+    margin-left: -165px;
+    color: #FFF;
+}
+
+#vitrine-imoveis-third-bairro{
+    margin-left: -40px;
+    color: #FFF;
+}
+
+#vitrine-imoveis-fourth-bairro{
+    margin-left: -178px;
+    color: #FFF;
+}
+
+#vitrine-imoveis-fifth-bairro{
+    margin-left: -108px;
+    color: #FFF;
+}
+
+#vitrine-imoveis-sixth-bairro{
+    margin-left: -125px;
+    color: #FFF;
+}
+
+#vitrine-imoveis-first-uf{
+    position: relative;
+    top: -18px;
+    left: 14px;
+    color: #FFF;
+}
+
+#vitrine-imoveis-second-uf{
+    position: relative;
+    top: -18px;
+    left: -40px;
+    color: #FFF;
+}
+
+#vitrine-imoveis-third-uf{
+    position: relative;
+    top: -18px;
+    left: 85px;
+    color: #FFF;
+}
+
+#vitrine-imoveis-fourth-uf{
+    position: relative;
+    top: -18px;
+    left: -55px;
+    color: #FFF;
+}
+
+#vitrine-imoveis-fifth-uf{
+    position: relative;
+    top: -18px;
+    left: 15px;
+    color: #FFF;
+}
+
+#vitrine-imoveis-sixth-uf{
+    position: relative;
+    top: -18px;
+    left: -3px;
+    color: #FFF;
+}
+
+.vitrine-imoveis-container-icons{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 10px 10px;
+    justify-content: space-around;
+    color: #FFF;
+}
+
+.fas-fa-bed, .fa-car,.fa-expand-arrows-alt{
+    font-size: 17pt;
+}
+
+.vitrine-imoveis-container-icons-qtd{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 10px 10px;
+    justify-content: space-around;
+}
+
+#vitrine-imoveis-first-vagas, #vitrine-imoveis-second-vagas,
+#vitrine-imoveis-third-vagas,#vitrine-imoveis-fourth-vagas,
+#vitrine-imoveis-fifth-vagas,#vitrine-imoveis-sixth-vagas{
+    margin-right: 15px;
+    color: #FFF;
+}
+
+#vitrine-imoveis-first-quartos, #vitrine-imoveis-second-quartos,
+#vitrine-imoveis-third-quartos,#vitrine-imoveis-fourth-quartos,
+#vitrine-imoveis-fifth-quartos,#vitrine-imoveis-sixth-quartos{
+    margin-right: 15px;
+    color: #FFF;
+}
+
+#vitrine-imoveis-first-metragem, #vitrine-imoveis-second-metragem,
+#vitrine-imoveis-third-metragem,#vitrine-imoveis-fourth-metragem,
+#vitrine-imoveis-fifth-metragem,#vitrine-imoveis-sixth-metragem{
+    color: #FFF;
+}
+
+.vitrine-imoveis-button-container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
+}
+
+.vitrine-imoveis-button{
+    width: 200px;
+    padding: 2px;
+    background-color: #228B22;
+    cursor: pointer;
+    border: 1px solid #FFF;
+}
+
+.vitrine-imoveis-link{
+    color:#000;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.carousel-button-container{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.carousel-button{
+    background: #228B22;
+    border: 0;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 3rem;
+    width: 3rem;
+    opacity: 0.25;
+    transition: opacity 0.25s;
+    z-index: 1;   
+}
+
+.carousel-button:hover{
+    opacity: 0.5;
+}
+
+
+/*Call Action*/
+.call-action{
+    margin: 40px 0px 40px;
+    color: #228B22;
+    background-color: #228B22;
+    padding: 30px;
+    border: 1px solid #FFF;
+}
+
+.call-action-container{
+    display: flex;
+    align-items: center;
+    text-align:center ;
+    justify-content: center;
+}
+
+.call-action-button{
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #000;
+    border: 1px solid #FFF;
+    width: 150px;
+    cursor: pointer;
+}
+
+.call-action-link{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.call-action-text{
+    font-size: 14pt;
+    font-weight: bold;
+    color: #000;
+}
+
+/*Últimas Notícias*/
+.latest-news-title{
+    font-weight: bold;
+    font-size: 18pt;
+    text-align: center;
+    padding: 10px;
+    margin: 30px 0px 30px;
+    color: #228B22;
+}
+
+.carousel2{
+    width: 760px;
+    margin: 0px 300px 0px;
+    overflow: hidden;
+}  
+
+.carousel-card2{
+    align-items: center;
+    display: flex;
+    transform: translateX(0);
+    transition: transform 0.25s;
+}
+  
+.latest-news-card-container{
+    display: flex;
+    justify-content: center;
+}
+
+.latest-news-card-inner{
+    border: 1px solid #FFF;
+    width: 240px;
+    height: 340px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.latest-news-card-inner:hover{
+    box-shadow: 0 0 5px #228B22;
+    cursor: pointer;
+    transition: ease-in .2s;
+}
+
+#latest-news-first-img, #latest-news-second-img,
+#latest-news-third-img,#latest-news-fourth-img{
+    width: 220px;
+    height: 160px;
+    margin-top:10px;
+    border: 1px solid #FFF;
+}
+
+#latest-news-first-titulo, #latest-news-second-titulo,
+#latest-news-third-titulo,#latest-news-fourth-titulo{
+    font-size: 12pt;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+    margin: 0 20% 5%;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#latest-news-first-sumario, #latest-news-second-sumario,
+#latest-news-third-sumario, #latest-news-fourth-sumario{
+    text-align: center;
+    margin: 0 10%;
+    color: #FFF;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.latest-news-button-container{
+    margin-top: 10px;
+}
+
+.latest-news-button{
+    width: 100px;
+    padding: 2px;
+    margin: 10px;
+    background-color: #228B22;
+    border: 1px solid #FFF;
+    float: right;
+}
+
+.latest-news-link{
+    color: #000;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.carousel-button-container2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.carousel-button2{
+    background: #228B22;
+    color: white;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 3rem;
+    width: 3rem;
+    opacity: 0.25;
+    transition: opacity 0.25s;
+    z-index: 1;   
+}
+
+.carousel-button2:hover{
+    opacity: 0.5;
+}
+
+/*Mais Acessos*/
+.mais-acessos-title{
+    font-weight: bold;
+    font-size: 18pt;
+    text-align: center;
+    padding: 10px;
+    margin: 30px 0px 30px;
+    color: #228B22;
+}
+
+.mais-acessos{
+    margin:0;
+}
+
+.mais-acessos-container{
+    text-align: center;
+}
+
+.mais-acessos-button{
+    width: 240px;
+    padding: 5px;
+    margin: 0px 15px 15px 0px;
+    border-radius: 15px;
+    background-color: #228B22;
+    border:1px solid #FFF;
+}
+
+#mais-acessos-first-tag, #mais-acessos-second-tag,#mais-acessos-third-tag,#mais-acessos-fourth-tag, #mais-acessos-fifth-tag{
+    color: #000;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.mais-acessos-button:hover{
+    cursor: pointer;
+}
+
+/*Localização*/
+.localizacao-title{
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 30px 0px 30px;
+    color: #228B22;
+}
+
+.localizacao{
+    margin:0;
+}
+
+.localizacao-container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.localizacao-iframe{
+    height: 200px;
+}
+
+/*Footer*/
+.footer{
+    border: 1px solid #FFF;
+    background-color: #228B22;
+    height: 200px;
+    margin-top: 60px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.footer-subtitle{
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.footer-item{
+    margin-bottom: 5px;
+
+}
+
+.footer-link{
+    color: #FFF;
+}
+
+.footer-text{
+    text-align: center;
+    color: #FFF;
+    font-size: 14pt;
+
+}
+
+#top{
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    color: #FFF;
+    cursor: pointer;
+}

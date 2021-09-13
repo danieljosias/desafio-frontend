@@ -1,42 +1,25 @@
-# Inforce: Desafio para Frontend Developer
-Este documento descreve o desafio que será utilizado para avaliar os candidatos à vagas de frontend na Inforce. Caso você tenha chegado aqui por acaso, sinta-se à vontade em realizar o teste, e logo após, contar um pouco mais sobre você através do formulário de RH do nosso site (http://inforce.com.br/rh). 
+# Desafio Front End
 
-O desafio abaixo é utilizado para as vagas de frontend  UX / UI e para as vagas de Frontend Javascript Developer. Embora cada um desses profissionais tenham características diferentes, gostaríamos de saber como você trabalha com a base tecnológica da stack do front (html, css e javascript).
+## Tecnologias utilizadas: # Java Script + # HTML + CSS
 
-## O desafio:
-O nosso cliente "Imobiliária Inforce" solicitou a criação de um novo site para a empresa e precisa ter um profissional especialista para realizar esta tarefa. Para ajudar o desenvolvedor nesse trabalho, disponibilizamos algumas APIs com as informações necessárias para o desenvolvimento do site e um WIREFRAME com o modelo de como nosso cliente (“Imobiliária Inforce”) quer o site dele.
+## Dificuldades
 
-Deixamos a estilização do site a cargo do candidato, queremos que nos surpreenda com o melhor visual que conseguir. O WIREFRAME que enviamos serve como modelo, para entender quais componentes DEVEM constar no site, mas a parte de estilo depende da sua criatividade.
+Para o slider do banner: encontrei uma mini lib chamada Glider.js e fiz o uso dela, o problema é que ela só pode ser usada com uma configuração por página, então não consegui utilizá-la para a seção vitrines e últimas notícias.
 
-**APIs para o desafio**: 
+Carousel vitrines e notícias: Já que não consegui utilizar o Glider.js, criei um novo carousel
+com html, css e js.
+para criar o carousel foi um desafio, pois geralmente eu uso lib.
 
-- Banners: https://labs.inforcedata.com.br/desafio-frontend/banners.json
-- Vitrine de Imóveis: https://labs.inforcedata.com.br/desafio-frontend/vitrines.json
-- Notícias: https://labs.inforcedata.com.br/desafio-frontend/noticias.json
-- Cloud Tags: https://labs.inforcedata.com.br/desafio-frontend/cloudtags.json
+Sobre a API:  foi meu maior desafio, pois eu tinha pouco conhecimento de API.
+inicialmente tentei usar o XMLHttpRequest mas não tive êxito,
+mudei para o fetch API e, então, consegui obter os dados da API e exibí-lo na tela.
 
-**Imagens**: 
-	
-- Logo Topo: https://labs.inforcedata.com.br/desafio-frontend/logos/logo_topo.png
-- Logo Footer: https://labs.inforcedata.com.br/desafio-frontend/logos/logo_footer.png
-
-**Wireframe**: 
-
-- https://labs.inforcedata.com.br/desafio-frontend/wireframe/wireframe.png
-
-## O que será avaliado:
-
-- **Organização do código**: Como você organiza os arquivos que compõem a solução;
-- **Estruturação do código**: Como você estrutura o código dos seus componentes (essa análise será aplicada para todas as tecnologias que compõem a solução); 
-- **Criatividade/Inovação**: Capacidade de sugerir mudanças e melhorias no wireframe que foi apresentado;
-- **Integração**: Conhecimento de integrações via API utilizando javascript;
-- **Utilização do Git**: O readme do repositório e a descrição dos commit deverão ser claros e de fácil entendimento;
-
-## Requisitos Técnicos
-- Utilizar HTML 5 e CSS 3 Puro, ou seja, não utilizar nenhum framework HTML ou CSS;
-- É permitido usar apenas mini libs Javascript, que não dependam do JQUERY; 
-- Utilizar melhores práticas de desenvolvimento para organização do projeto;
-- Criar instruções para rodar esse projeto de forma local
-
-## Entrega:
-O candidato deverá criar um fork deste projeto, e a partir deste fork, realizar o desenvolvimento. Favor utilizar o "Readme" do seu fork para descrever as dificuldades técnicas encontradas, como você as superou e, principalmente, como subir o projeto. Ao finalizar, você deverá responder ao e-mail que te enviou esse desafio, com o link do seu fork. 
+<img src="src/readme/readme1.png"/>
+<img src="src/readme/readme2.png"/>
+<img src="src/readme/readme3.png"/>
+<img src="src/readme/readme4.png"/>
+<img src="src/readme/readme5.png"/>
+<img src="src/readme/readme6.png"/>
+<img src="src/readme/readme7.png"/>
+<img src="src/readme/readme8.png"/>
+<img src="src/readme/readme9.png"/>
