@@ -1,6 +1,6 @@
 # Desafio Front End
 
-## Tecnologias utilizadas: # Java Script + # HTML + CSS
+## Tecnologias utilizadas : Java Script + HTML + CSS
 
 ## Dificuldades
 
