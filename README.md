@@ -14,12 +14,12 @@ Sobre a API:  foi meu maior desafio, pois eu tinha pouco conhecimento de API.
 inicialmente tentei usar o XMLHttpRequest mas não tive êxito,
 mudei para o fetch API e, então, consegui obter os dados da API e exibí-lo na tela.
 
-<img src="src/readme/readme1.png"/>
-<img src="src/readme/readme2.png"/>
-<img src="src/readme/readme3.png"/>
-<img src="src/readme/readme4.png"/>
-<img src="src/readme/readme5.png"/>
-<img src="src/readme/readme6.png"/>
-<img src="src/readme/readme7.png"/>
-<img src="src/readme/readme8.png"/>
-<img src="src/readme/readme9.png"/>
+<img src="readme/readme1.png"/>
+<img src="readme/readme2.png"/>
+<img src="readme/readme3.png"/>
+<img src="readme/readme4.png"/>
+<img src="readme/readme5.png"/>
+<img src="readme/readme6.png"/>
+<img src="readme/readme7.png"/>
+<img src="readme/readme8.png"/>
+<img src="readme/readme9.png"/>
